@@ -8,7 +8,7 @@ A sophisticated traffic navigation system that leverages AI agents and real-time
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Running the Application](#running-the-application)
+- [Running the Dockerized Application](#running-the-application)
 - [Development Guide](#development-guide)
 - [Troubleshooting](#troubleshooting)
 
@@ -230,4 +230,3 @@ Having trouble?
 
 ---
 
-    
