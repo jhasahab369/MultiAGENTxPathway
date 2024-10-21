@@ -1,0 +1,8 @@
+crewai==0.1.30
+langchain-groq==0.0.3
+python-dotenv==1.0.0
+requests==2.31.0
+pydantic==2.5.2
+duckduckgo-search==4.1.1
+langchain==0.1.0
+dataclasses-json==0.6.3

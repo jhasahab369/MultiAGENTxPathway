@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  traffic-navigation:
+    build: .
+    env_file: .env
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
