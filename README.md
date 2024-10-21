@@ -1,7 +1,8 @@
 # Smart Traffic Navigation System
-
-A sophisticated traffic navigation system that leverages AI agents and real-time traffic data to provide intelligent route recommendations and traffic analysis.
-
+Author: Bibhuti Jha .
+Here is my solution to implement a multi agent system using CrewAI framework and emplyoing the power of opensource LLM model by X , Groq.
+Domain: We are aware of how difficult city traffic gets - and its a serious real issue needed to be tackeled. I have built a sophisticated traffic navigation system that leverages AI agents and real-time traffic data to provide intelligent route recommendations and traffic analysis- including optimized and scalable modules.
+The entire agent is dockerized. 
 ## Table of Contents
 - [Architecture Overview](#architecture-overview)
 - [System Components](#system-components)
@@ -145,6 +146,7 @@ docker-compose up --build
 ### Project Structure
 ```
 MultiAGENTxPathway/
+├── PathwayDataPipeline/  
 ├── main.py                 # Main application entry point
 ├── Dockerfile             # Docker configuration
 ├── docker-compose.yml     # Docker Compose configuration
@@ -153,6 +155,14 @@ MultiAGENTxPathway/
 ├── .env.example          # Environment template
 └── README.md             # Documentation
 ```
+### Expected Output(I got)
+
+<div align="center">
+  <img src="./images/output1.png" alt="Traffic Navigation System Architecture" width="800"/>
+</div>
+<div align="center">
+  <img src="./images/output2.png" alt="Traffic Navigation System Architecture" width="800"/>
+</div>
 
 ### Key Classes
 
